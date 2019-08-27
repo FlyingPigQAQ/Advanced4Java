@@ -21,3 +21,18 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.gradle/
+.idea/$PRODUCT_WORKSPACE_FILE$
+.idea/.gitignore
+.idea/gradle.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/vcs.xml
+build.gradle
+build/generated/
+build/reports/
+build/test-results/
+build/tmp/
+gradle/wrapper/gradle-wrapper.properties
+
+
