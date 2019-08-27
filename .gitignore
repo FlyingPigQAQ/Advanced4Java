@@ -28,7 +28,6 @@ hs_err_pid*
 .idea/inspectionProfiles/
 .idea/misc.xml
 .idea/vcs.xml
-build.gradle
 build/generated/
 build/reports/
 build/test-results/
