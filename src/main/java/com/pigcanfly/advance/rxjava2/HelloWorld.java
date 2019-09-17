@@ -15,7 +15,11 @@ import java.util.concurrent.TimeUnit;
 public class HelloWorld {
 
     public static void main(String[] args) throws InterruptedException {
-        new HelloWorld().twoStartup();
+        Observable.create(emitter -> {
+            for (int i = 0; i < 100000000; i++) {
+                emitter.onNext(i);
+            }
+        }).subscribe(System.out::println);
     }
 
     public void twoStartup() throws InterruptedException {
